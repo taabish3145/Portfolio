@@ -1,0 +1,1 @@
+const t=document.getElementById("theme");t.onclick=()=>{document.body.classList.toggle("light");t.textContent=document.body.classList.contains("light")?"☾":"☼"};document.addEventListener("pointermove",e=>{const c=document.querySelector(".cursor");c.style.left=e.clientX+"px";c.style.top=e.clientY+"px"});
